@@ -9,3 +9,19 @@
 <p> long date : {{toDate | date:'long'}}</p>
 
 <p> full date : {{toDate | date:'full'}}</p>
+
+<p> orginal text : {{sampleMessage}}</p>
+
+<p> uppercase text : {{sampleMessage|uppercase}}</p>
+
+<p> lowercase text : {{sampleMessage|lowercase}}</p>
+
+<p> example 1 : {{sampleMessage|slice:0:6}}</p><!--6-1 = 5 -->
+
+<p> example 2 : {{sampleMessage|slice:-5}}</p><!--6-1 = 5 -->
+
+<p> orginal price without format : {{price}}</p>
+
+<p> orginal price with format(symbol) : {{price|currency:"INR"}}</p>
+
+<p> orginal price with format(code) : {{price|currency:"INR":false}}</p>

@@ -9,4 +9,8 @@ export class AppComponent {
   title = 'pipenew';
 
   toDate = new Date();
+
+  sampleMessage = "Welcome To angular Pipe example";
+
+  price = 17;
 }
